@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="post">
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" required id="username" name="username" placeholder="Enter your username">
+        </div>
+        <!-- Required tag makes it necessary -->
+         <!-- There is also an autofocus and pattern tag -->
+        <div>
+            <!-- Both the radio buttons have name common thats why one gets selected -->
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+        <div>
+            <input type="checkbox" name="Graduate" value="yes"> Graduate
+        </div>
+        <div>
+            <label for="bio">Enter your bio</label><br>
+            <textarea id="bio" name="comments" rows="4" cols="30"></textarea>
+        </div>
+        <div>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
