@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+        <!-- here divs and span are selector -->
+         <!-- Inside are declarations -->
+    <style>
+        /*Element Selectors*/
+        /*div,span{
+            color: red;
+            background-color: yellow;
+        }*/
+        /*This is a class selector*/
+    .red{
+        color: red;
+    }
+    /*This is an id selector*/
+    #green{
+        background-color: green;
+    }
+    /*Child selector(p directly inside div)*/
+    div>p{
+        background-color: blue;
+    }
+    /*Descendent slector*/
+    div p{
+        background-color: pink;
+    }
+    /*Universal selector*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*Pseudo selector*/
+    a:visited{
+        color: yellow;
+    }
+    a:link{
+        color: green;
+    }
+    a:active{
+        background-color: red;
+    }
+    a:hover{
+        background-color: pink;
+    }
+    p:first-child/*jahajaha p apne parent ka first child ho*/{
+        background-color:aquamarine;
+    }
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+    <div class="red">
+        Hi this is a div
+        <p>I am a para inside div</p>
+    </div>
+    <div id="green">
+        <article>
+            <p>
+                This is another div
+            </p>
+        </article>
+    </div>
+    <span>
+        This is a span
+    </span>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi eius maiores dolore fuga, commodi harum non autem rem doloremque dolorem facilis atque accusamus!</p>
+<a target="_blank" href="https://www.google.com">Go to Google</a>
+</body>
+</html>
