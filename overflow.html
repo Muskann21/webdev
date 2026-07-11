@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+ </head>
+ <style>
+    .box{
+        width: 30vw;
+        height: 30vh;
+        border: 2px solid black;
+        /*overflow: auto;*/
+        overflow:auto scroll;/*(x,y)*/
+        white-space: nowrap;/*all text in one line*/
+        text-overflow: ellipsis;
+    }
+ </style>
+ <body>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in officiis iure laboriosam veritatis autem suscipit aliquid, laudantium neque odit reiciendis quas molestias atque animi accusantium ipsum sit quod quos sequi. Eum laborum iure voluptatem natus numquam dignissimos, doloremque, rem quos at nostrum sit ipsum doloribus amet hic minus facilis.
+    </div>
+ </body>
+ </html>
