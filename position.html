@@ -21,7 +21,13 @@
     }
     .box1{
         background-color: aqua;
-        position: absolute;
+        position: sticky;
+        top: 0px;
+        width: 100%;
+        height: 111px;
+        margin: 0px;
+        padding: 0px;
+        /*position: absolute;
         top: 0px;/*nearest positioned ancestor*/
     }
     .box2{
@@ -41,6 +47,10 @@
         margin: 33px;
         padding: 43px;
         border: 2px solid purple;
+        /*position:relative;*/
+
+
+        /*Exception:transform.filter,perspective properties can also make an element appear positioned*/
     }
 </style>
 
